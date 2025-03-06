@@ -7,4 +7,15 @@ class Crew
     @morale = crew_json["morale"]
     @wages = crew_json["wages"]
   end
+
+  def to_s
+    <<~STRING
+      Crew Information:
+      Current Crew Size: #{@current_crew_size} / #{@crew_size_capacity}
+      Required Crew Size: #{@required_crew_size}
+      Rotation: #{@crew_rotation}
+      Morale: #{@morale}
+      Wages: #{@wages}
+    STRING
+  end
 end

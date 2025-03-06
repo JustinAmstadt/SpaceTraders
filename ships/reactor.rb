@@ -1,3 +1,5 @@
+require "./ships/requirements"
+
 class Reactor
   def initialize(reactor_json)
     @symbol = reactor_json["symbol"]
@@ -6,6 +8,16 @@ class Reactor
     @condition = reactor_json["condition"]
     @integrity = reactor_json["integrity"]
     @power_output = reactor_json["powerOutput"]
-    @requirements = reactor_json["requirements"]
+    @requirements = Requirements.new(reactor_json["requirements"])
+  end
+
+  def to_s
+    <<~STRING
+      Reactor: #{@name} (#{@symbol})
+      Description: #{@description}
+      Condition: #{@condition}, Integrity: #{@integrity}
+      Power Output: #{@power_output}
+      Requirements: #{@requirements}
+    STRING
   end
 end

@@ -1,3 +1,5 @@
+require "./ships/requirements"
+
 class Engine
   def initialize(engine_json)
     @symbol = engine_json["symbol"]
@@ -6,6 +8,16 @@ class Engine
     @condition = engine_json["condition"]
     @integrity = engine_json["integrity"]
     @speed = engine_json["speed"]
-    @requirements = engine_json["requirements"]
+    @requirements = Requirements.new(engine_json["requirements"])
+  end
+
+  def to_s
+    <<~STRING
+      Engine: #{@name} (#{@symbol})
+      Description: #{@description}
+      Condition: #{@condition}, Integrity: #{@integrity}
+      Speed: #{@speed}
+      Requirements: #{@requirements}
+    STRING
   end
 end

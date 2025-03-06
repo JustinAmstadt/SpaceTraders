@@ -6,4 +6,8 @@ class Location
     @x = location_json["x"]
     @y = location_json["y"]
   end
+
+  def to_s
+    "Location Symbol: #{@symbol}, Type: #{@type}, System: #{@system_symbol}, Coordinates: (#{@x}, #{@y})"
+  end
 end

@@ -5,4 +5,14 @@ class Fuel
     @consumed_amount = fuel_json["consumed"]["amount"]
     @consumed_timestamp = fuel_json["consumed"]["timestamp"]
   end
+
+  def to_s
+    <<~STRING
+      Fuel Information:
+      Current: #{@current} units
+      Capacity: #{@capacity} units
+      Consumed: #{@consumed_amount} units
+      Last Consumed: #{@consumed_timestamp}
+    STRING
+  end
 end

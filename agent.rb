@@ -19,6 +19,7 @@ class Agent
     @starting_faction = data["startingFactions"]
     @ship_count = data["shipCount"]
     @ships = get_agent_ships
+    puts @ships.to_s
   end
 
   private def get_headquarters_waypoint(headquarters)
