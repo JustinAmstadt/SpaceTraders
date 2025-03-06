@@ -52,6 +52,49 @@ class Ship
     @cargo = Cargo.new(ship_json["cargo"])
   end
 
+  def orbit
+  end
+
+  def dock
+  end
+
+  def set_flight_mode()
+  end
+
+  def navigate_to()
+  end
+
+  def warp_to()
+  end
+
+  def jump_to()
+  end
+
+  def refuel()
+    # must be docked
+  end
+
+  def extract()
+  end
+
+  def get_cargo_currently_held
+  end
+
+  def view_market_data
+  end
+
+  def sell_cargo
+  end
+
+  def get_repair_cost
+  end
+
+  def repair
+  end
+
+  def scrap
+  end
+
   def to_s
     <<~SHIP_INFO
       Ship: #{@symbol}
