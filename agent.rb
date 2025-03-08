@@ -9,6 +9,8 @@ require './waypoint'
 require './ships/ships'
 
 class Agent
+  attr_reader :ships 
+
   def initialize(token)
     data = AgentEndpoint.call_endpoint(token)
     @token = token
@@ -19,7 +21,7 @@ class Agent
     @starting_faction = data["startingFactions"]
     @ship_count = data["shipCount"]
     @ships = get_agent_ships
-    puts @ships.to_s
+    @contracts = ""
   end
 
   private def get_headquarters_waypoint(headquarters)
@@ -34,12 +36,18 @@ class Agent
     @headquarters.display_info
   end
 
+  def display_ship_details
+    puts @ships.to_s
+  end
+
+  def list_ships
+    puts @ships.list_ship_names
+  end
+
   def get_current_contracts
     AgentContracts.new(@token)
   end
+
+  def get_new_contract
+  end
 end
-
-agent = Agent.new(AGENT_TOKEN)
-# agent.display_headquarters
-
-agent.get_current_contracts

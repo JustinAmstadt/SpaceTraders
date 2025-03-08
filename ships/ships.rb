@@ -16,17 +16,21 @@ require './ships/cargo'
 class AgentShips
   def initialize(token)
     data = MyShipsEndpoint.get_my_ships(token)
-    @ships = data.map do |ship_json| 
+    @ships = data.map { |ship_json| 
       puts "Creating ship #{ship_json["symbol"]}"
-      Ship.new(ship_json)
+      [ship_json["symbol"], Ship.new(ship_json)]
+    }.to_h 
+
+    def list_ship_names
+      @ships.keys.join("\n") # Joins the keys (symbols) into a string with newlines
     end
 
     def to_s
-      str = ""
-      for ship in @ships
-        str << "{\n#{ship.to_s}},\n"
-      end
-      str
+      @ships.values.map(&:to_s).join(",\n")
+    end
+
+    def get_ship(shipSymbol)
+      @ships[shipSymbol]
     end
   end
 end

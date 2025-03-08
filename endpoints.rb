@@ -13,7 +13,7 @@ class AgentEndpoint < Endpoint
   end
 end
 
-class WaypointEndpoint
+class WaypointEndpoint < Endpoint
   def self.call_endpoint(token, system_symbol, waypoint_symbol)
     waypoint_endpoint = "#{SPACE_TRADERS_URL}/systems/#{system_symbol}/waypoints/#{waypoint_symbol}"
     response = HTTParty.get(waypoint_endpoint, headers: make_header(token))
@@ -21,7 +21,7 @@ class WaypointEndpoint
   end
 end
 
-class MyContractsEndpoint
+class MyContractsEndpoint < Endpoint
   def self.get_my_contracts(token)
     my_contracts_endpoint = "#{SPACE_TRADERS_URL}/my/contracts"
     response = HTTParty.get(my_contracts_endpoint, headers: make_header(token))
@@ -35,7 +35,7 @@ class MyContractsEndpoint
   end
 end
 
-class MyShipsEndpoint
+class MyShipsEndpoint < Endpoint
   @my_ships_endpoint = "#{SPACE_TRADERS_URL}/my/ships"
 
   def self.get_my_ships(token)
