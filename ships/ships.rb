@@ -15,7 +15,7 @@ require './ships/cargo'
 
 class AgentShips
   def initialize(token)
-    data = MyShipsEndpoint.call_endpoint(token)
+    data = MyShipsEndpoint.get_my_ships(token)
     @ships = data.map do |ship_json| 
       puts "Creating ship #{ship_json["symbol"]}"
       Ship.new(ship_json)
