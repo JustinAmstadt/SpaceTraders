@@ -56,10 +56,17 @@ class Ship
     @cargo = Cargo.new(ship_json["cargo"])
   end
 
-  def orbit
+
+  def orbit(token)
+    new_nav_data = MyShipsEndpoint.orbit(token, @symbol)
+    @nav = Nav.new(new_nav_data["nav"])
+    @nav
   end
 
-  def dock
+  def dock(token)
+    new_nav_data = MyShipsEndpoint.dock(token, @symbol)
+    @nav = Nav.new(new_nav_data["nav"])
+    @nav
   end
 
   def set_flight_mode()
@@ -79,6 +86,9 @@ class Ship
   end
 
   def extract()
+  end
+
+  def jettison
   end
 
   def get_cargo_currently_held

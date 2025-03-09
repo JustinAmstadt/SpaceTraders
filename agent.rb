@@ -4,15 +4,18 @@ require 'json'
 
 require './config'
 require './endpoints'
-require './contracts'
+require './contracts/contracts'
 require './waypoint'
 require './ships/ships'
 
 class Agent
-  attr_reader :ships 
+  attr_reader :ships, :contracts
 
   def initialize(token)
     data = AgentEndpoint.call_endpoint(token)
+
+    raise ArgumentError, "agent data is nil" if data.nil?
+    
     @token = token
     @account_id = data["accountId"]
     @symbol = data["symbol"]
@@ -21,7 +24,7 @@ class Agent
     @starting_faction = data["startingFactions"]
     @ship_count = data["shipCount"]
     @ships = get_agent_ships
-    @contracts = ""
+    @contracts = get_current_contracts
   end
 
   private def get_headquarters_waypoint(headquarters)
@@ -44,8 +47,12 @@ class Agent
     puts @ships.list_ship_names
   end
 
-  def get_current_contracts
+  private def get_current_contracts
     AgentContracts.new(@token)
+  end
+
+  def list_contracts
+    puts @contracts.to_s
   end
 
   def get_new_contract

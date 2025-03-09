@@ -19,6 +19,12 @@ class WaypointEndpoint < Endpoint
     response = HTTParty.get(waypoint_endpoint, headers: make_header(token))
     response["data"]
   end
+
+  def self.search_waypoint(token, system_symbol, type)
+    search_endpoint = "#{SPACE_TRADERS_URL}/systems/#{system_symbol}/waypoints?type#{type}"
+    response = HTTParty.get(search_endpoint, headers: make_header(token))
+    response["data"]
+  end
 end
 
 class MyContractsEndpoint < Endpoint
@@ -28,9 +34,9 @@ class MyContractsEndpoint < Endpoint
     response["data"]
   end
 
-  def self.accept_contract(token, contractId)
-    accept_contract_endpoint = "#{SPACE_TRADERS_URL}/my/contracts/#{contractId}/accept"
-    response = HTTParty.get(accept_contract_endpoint, headers: make_header(token))
+  def self.accept_contract(token, contract_id)
+    accept_contract_endpoint = "#{SPACE_TRADERS_URL}/my/contracts/#{contract_id}/accept"
+    response = HTTParty.post(accept_contract_endpoint, headers: make_header(token))
     response["data"]
   end
 end
@@ -43,9 +49,21 @@ class MyShipsEndpoint < Endpoint
     response["data"]
   end
 
-  def self.negotiate_new_contract(token, shipSymbol)
-    negotiate_contract_path = "#{@my_ships_endpoint}/#{shipSymbol}/negotiate/contract"
-    response = HTTParty.get(negotiate_contract_path, headers: make_header(token))
+  def self.negotiate_new_contract(token, ship_symbol)
+    negotiate_contract_endpoint = "#{@my_ships_endpoint}/#{ship_symbol}/negotiate/contract"
+    response = HTTParty.get(negotiate_contract_endpoint, headers: make_header(token))
+    response["data"]
+  end
+
+  def self.dock(token, ship_symbol)
+    dock_endpoint = "#{@my_ships_endpoint}/#{ship_symbol}/dock"
+    response = HTTParty.post(dock_endpoint, headers: make_header(token))
+    response["data"]
+  end
+
+  def self.orbit(token, ship_symbol)
+    orbit_endpoint = "#{@my_ships_endpoint}/#{ship_symbol}/orbit"
+    response = HTTParty.post(orbit_endpoint, headers: make_header(token))
     response["data"]
   end
 end
