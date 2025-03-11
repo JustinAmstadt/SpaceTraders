@@ -72,7 +72,9 @@ class Ship
   def set_flight_mode()
   end
 
-  def navigate_to()
+  def navigate_to(token, waypoint_symbol)
+    MyShipsEndpoint.navigate(token, @symbol, waypoint_symbol)
+
   end
 
   def warp_to()

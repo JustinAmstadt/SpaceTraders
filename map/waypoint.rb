@@ -1,12 +1,17 @@
-Point = Struct.new(:x, :y)
+require './map/point'
+
 Trait = Struct.new(:symbol, :name, :description)
 Chart = Struct.new(:submitted_by, :submitted_on)
 
 class Waypoint
-  def initialize(token, waypoint_symbol)
+  def initialize(token, waypoint_symbol, data = {})
     @symbol = waypoint_symbol
-    system = get_system
-    data = WaypointEndpoint.call_endpoint(@token, system, waypoint_symbol)
+
+    if data.empty?
+      system = get_system
+      data = WaypointEndpoint.call_endpoint(@token, system, waypoint_symbol)
+    end
+
     @type = data["type"]
     @point = Point.new(data["x"], data["y"])
     @orbitals = make_orbits_array(data["orbitals"])
@@ -37,14 +42,30 @@ class Waypoint
     end
   end
 
-  def display_info
-    puts "Symbol: #{@symbol}"
-    puts "Type: #{@type}"
-    puts "Point: (#{@point.x}, #{@point.y})"
-    puts "Orbitals: #{@orbitals}"
-    puts "Traits: #{@traits}"
-    puts "Chart: #{@chart}"
-    puts "Faction: #{@faction}"
-    puts "Is Under Construction: #{@is_under_construction}"
+  def to_s
+    str = <<~INFO
+      Symbol: #{@symbol}
+      Type: #{@type}
+      Point: (#{@point.x}, #{@point.y})
+      Orbitals: #{@orbitals.join(", ")}
+      Traits:
+    INFO
+  
+    @traits.each do |trait|
+      str << "  - #{trait.name} (#{trait.symbol}): #{trait.description}\n"
+    end
+  
+    str << if @chart.submitted_by
+             "Chart: Submitted by #{@chart.submitted_by} on #{@chart.submitted_on}\n"
+           else
+             "Chart: Not submitted\n"
+           end
+  
+    str << "Modifiers: #{@modifiers}\n"
+    str << "Faction: #{@faction}\n"
+    str << "Is Under Construction: #{@is_under_construction}\n"
+  
+    str
   end
+
 end

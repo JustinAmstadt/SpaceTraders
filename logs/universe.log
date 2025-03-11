@@ -1,0 +1,1139 @@
+Universe contains the following systems:
+System Symbol: X1-KU12
+Sector: X1
+Type: RED_STAR
+Point: (-780, 3171)
+Waypoints:
+X1-KU12-EC1B: Symbol: X1-KU12-EC1B
+Type: PLANET
+Point: (8, 6)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-FZ2A: Symbol: X1-KU12-FZ2A
+Type: GAS_GIANT
+Point: (31, -15)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-XC3A: Symbol: X1-KU12-XC3A
+Type: ASTEROID
+Point: (414, 627)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-BA4A: Symbol: X1-KU12-BA4A
+Type: ASTEROID
+Point: (234, 683)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-EZ5Z: Symbol: X1-KU12-EZ5Z
+Type: ASTEROID
+Point: (-548, 536)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-DA6Z: Symbol: X1-KU12-DA6Z
+Type: ASTEROID
+Point: (8, -754)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-XC7D: Symbol: X1-KU12-XC7D
+Type: ASTEROID
+Point: (527, -527)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-XE8X: Symbol: X1-KU12-XE8X
+Type: ASTEROID
+Point: (758, -88)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-FB9D: Symbol: X1-KU12-FB9D
+Type: ASTEROID
+Point: (529, 544)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-KU12-A10B: Symbol: X1-KU12-A10B
+Type: ASTEROID
+Point: (-68, 722)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-RN4
+Sector: X1
+Type: RED_STAR
+Point: (4194, -3088)
+Waypoints:
+X1-RN4-DA1B: Symbol: X1-RN4-DA1B
+Type: PLANET
+Point: (-8, -20)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-BZ2E: Symbol: X1-RN4-BZ2E
+Type: ASTEROID
+Point: (528, -537)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-AF3X: Symbol: X1-RN4-AF3X
+Type: ASTEROID
+Point: (747, -108)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-FZ4D: Symbol: X1-RN4-FZ4D
+Type: ASTEROID
+Point: (694, 197)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-BD5E: Symbol: X1-RN4-BD5E
+Type: ASTEROID
+Point: (-443, 618)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-ZF6A: Symbol: X1-RN4-ZF6A
+Type: ASTEROID
+Point: (-746, 239)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-BB7B: Symbol: X1-RN4-BB7B
+Type: ASTEROID
+Point: (-731, 153)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-FD8C: Symbol: X1-RN4-FD8C
+Type: ASTEROID
+Point: (-631, -357)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-ZF9F: Symbol: X1-RN4-ZF9F
+Type: ASTEROID
+Point: (-527, -579)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RN4-B10F: Symbol: X1-RN4-B10F
+Type: ASTEROID
+Point: (-102, -757)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-AR70
+Sector: X1
+Type: YOUNG_STAR
+Point: (-303, 741)
+Waypoints:
+X1-AR70-AE1C: Symbol: X1-AR70-AE1C
+Type: ASTEROID
+Point: (-190, 291)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-CF2C: Symbol: X1-AR70-CF2C
+Type: ASTEROID
+Point: (-265, 265)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-CA3X: Symbol: X1-AR70-CA3X
+Type: ASTEROID
+Point: (-263, 166)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-BE4E: Symbol: X1-AR70-BE4E
+Type: ASTEROID
+Point: (-96, 323)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-ZE5F: Symbol: X1-AR70-ZE5F
+Type: ASTEROID
+Point: (-308, 42)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-ZZ6X: Symbol: X1-AR70-ZZ6X
+Type: ASTEROID
+Point: (-383, 0)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-CF7D: Symbol: X1-AR70-CF7D
+Type: ASTEROID
+Point: (-282, 180)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-XA8C: Symbol: X1-AR70-XA8C
+Type: ASTEROID
+Point: (-355, -44)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-DE9C: Symbol: X1-AR70-DE9C
+Type: ASTEROID
+Point: (-253, -226)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-AR70-B10F: Symbol: X1-AR70-B10F
+Type: ASTEROID
+Point: (-327, -98)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-RX12
+Sector: X1
+Type: RED_STAR
+Point: (4798, 843)
+Waypoints:
+X1-RX12-BA1E: Symbol: X1-RX12-BA1E
+Type: PLANET
+Point: (0, 16)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-EE2C: Symbol: X1-RX12-EE2C
+Type: PLANET
+Point: (-4, -37)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-DB3Z: Symbol: X1-RX12-DB3Z
+Type: PLANET
+Point: (54, -27)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-CZ4C: Symbol: X1-RX12-CZ4C
+Type: PLANET
+Point: (20, 68)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-AC5F: Symbol: X1-RX12-AC5F
+Type: PLANET
+Point: (15, 95)
+Orbitals: X1-RX12-CA6B, X1-RX12-ZB7C
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-XB8B: Symbol: X1-RX12-XB8B
+Type: PLANET
+Point: (-48, 106)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-FD9D: Symbol: X1-RX12-FD9D
+Type: PLANET
+Point: (-6, 137)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-B10F: Symbol: X1-RX12-B10F
+Type: GAS_GIANT
+Point: (-139, -62)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-C11X: Symbol: X1-RX12-C11X
+Type: GAS_GIANT
+Point: (169, -57)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RX12-E12B: Symbol: X1-RX12-E12B
+Type: JUMP_GATE
+Point: (447, -63)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-YH74
+Sector: X1
+Type: ORANGE_STAR
+Point: (-275, 747)
+Waypoints:
+X1-YH74-FC1B: Symbol: X1-YH74-FC1B
+Type: PLANET
+Point: (15, -6)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-AF2D: Symbol: X1-YH74-AF2D
+Type: GAS_GIANT
+Point: (39, -4)
+Orbitals: X1-YH74-ZX3X
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-AB4C: Symbol: X1-YH74-AB4C
+Type: GAS_GIANT
+Point: (-55, -25)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-CF5C: Symbol: X1-YH74-CF5C
+Type: ASTEROID
+Point: (320, -656)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-EC6A: Symbol: X1-YH74-EC6A
+Type: ASTEROID
+Point: (624, -395)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-AD7A: Symbol: X1-YH74-AD7A
+Type: ASTEROID
+Point: (252, -728)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-ZE8X: Symbol: X1-YH74-ZE8X
+Type: ASTEROID
+Point: (613, 421)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-XF9C: Symbol: X1-YH74-XF9C
+Type: ASTEROID
+Point: (-282, 683)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-D10F: Symbol: X1-YH74-D10F
+Type: ASTEROID
+Point: (-376, 628)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YH74-C11F: Symbol: X1-YH74-C11F
+Type: ASTEROID
+Point: (-346, 652)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-YQ15
+Sector: X1
+Type: ORANGE_STAR
+Point: (-3215, -2367)
+Waypoints:
+X1-YQ15-BF1Z: Symbol: X1-YQ15-BF1Z
+Type: PLANET
+Point: (-8, 14)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YQ15-DA2E: Symbol: X1-YQ15-DA2E
+Type: ASTEROID
+Point: (111, -742)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YQ15-EZ3A: Symbol: X1-YQ15-EZ3A
+Type: ASTEROID
+Point: (643, -452)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YQ15-FZ4D: Symbol: X1-YQ15-FZ4D
+Type: ASTEROID
+Point: (578, 523)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YQ15-BA5D: Symbol: X1-YQ15-BA5D
+Type: ASTEROID
+Point: (-86, 732)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YQ15-CF6E: Symbol: X1-YQ15-CF6E
+Type: ASTEROID
+Point: (-528, 484)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YQ15-AE7Z: Symbol: X1-YQ15-AE7Z
+Type: ASTEROID
+Point: (-783, 59)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YQ15-EE8X: Symbol: X1-YQ15-EE8X
+Type: ASTEROID
+Point: (-506, -552)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-YQ15-FB9E: Symbol: X1-YQ15-FB9E
+Type: ASTEROID
+Point: (328, -641)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-TZ63
+Sector: X1
+Type: RED_STAR
+Point: (-4967, 2855)
+Waypoints:
+X1-TZ63-CA1Z: Symbol: X1-TZ63-CA1Z
+Type: GAS_GIANT
+Point: (-13, 5)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ63-ZB2F: Symbol: X1-TZ63-ZB2F
+Type: ASTEROID
+Point: (140, 698)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ63-FX3Z: Symbol: X1-TZ63-FX3Z
+Type: ASTEROID
+Point: (345, 654)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ63-EZ4D: Symbol: X1-TZ63-EZ4D
+Type: ASTEROID
+Point: (-608, 398)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ63-ED5E: Symbol: X1-TZ63-ED5E
+Type: ASTEROID
+Point: (-510, -559)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ63-FZ6D: Symbol: X1-TZ63-FZ6D
+Type: ASTEROID
+Point: (-116, -740)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ63-DF7Z: Symbol: X1-TZ63-DF7Z
+Type: ASTEROID
+Point: (166, -719)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ63-CA8C: Symbol: X1-TZ63-CA8C
+Type: ASTEROID
+Point: (513, -536)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ63-BC9B: Symbol: X1-TZ63-BC9B
+Type: ASTEROID
+Point: (618, 448)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-QU24
+Sector: X1
+Type: RED_STAR
+Point: (-1545, 4731)
+Waypoints:
+X1-QU24-FZ1D: Symbol: X1-QU24-FZ1D
+Type: GAS_GIANT
+Point: (14, 10)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-ZE2A: Symbol: X1-QU24-ZE2A
+Type: ASTEROID
+Point: (707, -247)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-DC3A: Symbol: X1-QU24-DC3A
+Type: ASTEROID
+Point: (528, -478)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-ZA4B: Symbol: X1-QU24-ZA4B
+Type: ASTEROID
+Point: (740, -54)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-CB5C: Symbol: X1-QU24-CB5C
+Type: ASTEROID
+Point: (279, 670)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-CE6X: Symbol: X1-QU24-CE6X
+Type: ASTEROID
+Point: (-79, 736)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-FC7A: Symbol: X1-QU24-FC7A
+Type: ASTEROID
+Point: (-752, 226)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-EB8D: Symbol: X1-QU24-EB8D
+Type: ASTEROID
+Point: (-444, -596)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-EZ9D: Symbol: X1-QU24-EZ9D
+Type: ASTEROID
+Point: (66, -770)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-QU24-B10F: Symbol: X1-QU24-B10F
+Type: ASTEROID
+Point: (612, -429)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-RU28
+Sector: X1
+Type: BLUE_STAR
+Point: (1699, -2406)
+Waypoints:
+X1-RU28-EF1B: Symbol: X1-RU28-EF1B
+Type: GAS_GIANT
+Point: (-18, -1)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-BA2C: Symbol: X1-RU28-BA2C
+Type: GAS_GIANT
+Point: (-21, -36)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-ZC3E: Symbol: X1-RU28-ZC3E
+Type: GAS_GIANT
+Point: (22, -69)
+Orbitals: X1-RU28-FD4D
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-EE5Z: Symbol: X1-RU28-EE5Z
+Type: GAS_GIANT
+Point: (-79, 27)
+Orbitals: X1-RU28-DZ6Z
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-DB7X: Symbol: X1-RU28-DB7X
+Type: ASTEROID
+Point: (-711, 307)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-ZF8E: Symbol: X1-RU28-ZF8E
+Type: ASTEROID
+Point: (-720, -181)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-AF9D: Symbol: X1-RU28-AF9D
+Type: ASTEROID
+Point: (-417, -610)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-C10A: Symbol: X1-RU28-C10A
+Type: ASTEROID
+Point: (-176, -712)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-E11E: Symbol: X1-RU28-E11E
+Type: ASTEROID
+Point: (751, 57)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-RU28-E12B: Symbol: X1-RU28-E12B
+Type: ASTEROID
+Point: (692, 164)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+
+System Symbol: X1-TZ5
+Sector: X1
+Type: RED_STAR
+Point: (-2107, 2126)
+Waypoints:
+X1-TZ5-EF1B: Symbol: X1-TZ5-EF1B
+Type: ASTEROID
+Point: (-756, 107)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-FF2D: Symbol: X1-TZ5-FF2D
+Type: ASTEROID
+Point: (-323, -650)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-DE3F: Symbol: X1-TZ5-DE3F
+Type: ASTEROID
+Point: (725, 40)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-FC4X: Symbol: X1-TZ5-FC4X
+Type: ASTEROID
+Point: (716, -173)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-EF5E: Symbol: X1-TZ5-EF5E
+Type: ASTEROID
+Point: (284, 689)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-FF6X: Symbol: X1-TZ5-FF6X
+Type: ASTEROID
+Point: (665, 336)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-DA7C: Symbol: X1-TZ5-DA7C
+Type: ASTEROID
+Point: (491, 616)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-FE8E: Symbol: X1-TZ5-FE8E
+Type: ASTEROID
+Point: (555, 532)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-DZ9A: Symbol: X1-TZ5-DZ9A
+Type: ASTEROID
+Point: (87, 779)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+X1-TZ5-D10B: Symbol: X1-TZ5-D10B
+Type: ASTEROID
+Point: (-409, 579)
+Orbitals: 
+Traits:
+  - Uncharted (UNCHARTED): An unexplored region of space, full of potential discoveries and hidden dangers.
+Chart: Not submitted
+Modifiers: []
+Faction: 
+Is Under Construction: false
+
+

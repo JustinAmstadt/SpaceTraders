@@ -5,6 +5,6 @@ set +a
 # curl 'https://api.spacetraders.io/v2/my/agent' \
  # --header 'Authorization: Bearer '${AGENT_RED_TOKEN}''
 
- curl --request POST \
- --url 'https://api.spacetraders.io/v2/my/ships/AGENTRED-1/dock' \
+ curl --request GET \
+ --url 'https://api.spacetraders.io/v2/systems/X1-TZ54/waypoints?type=ENGINEERED_ASTEROID' \
  --header "Authorization: Bearer ${AGENT_RED_TOKEN}"

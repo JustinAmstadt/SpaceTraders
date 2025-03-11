@@ -21,7 +21,7 @@ class WaypointEndpoint < Endpoint
   end
 
   def self.search_waypoint(token, system_symbol, type)
-    search_endpoint = "#{SPACE_TRADERS_URL}/systems/#{system_symbol}/waypoints?type#{type}"
+    search_endpoint = "#{SPACE_TRADERS_URL}/systems/#{system_symbol}/waypoints?type=#{type}"
     response = HTTParty.get(search_endpoint, headers: make_header(token))
     response["data"]
   end
@@ -64,6 +64,36 @@ class MyShipsEndpoint < Endpoint
   def self.orbit(token, ship_symbol)
     orbit_endpoint = "#{@my_ships_endpoint}/#{ship_symbol}/orbit"
     response = HTTParty.post(orbit_endpoint, headers: make_header(token))
+    response["data"]
+  end
+
+  def self.navigate(token, ship_symbol, waypoint_symbol)
+    navigate_endpoint = "#{@my_ships_endpoint}/#{ship_symbol}/navigate"
+
+    body = {
+      "waypointSymbol" => waypoint_symbol
+    }.to_json
+    response = HTTParty.post(navigate_endpoint, 
+                            headers: {
+                              'Content-Type' => 'application/json',
+                              'Authorization' => "Bearer #{token}"
+                            },
+                            body: body) 
+    response["data"]
+  end
+end
+
+class SystemsEndpoint < Endpoint
+  @systems_endpoint = "#{SPACE_TRADERS_URL}/systems"
+
+  def self.systems(token)
+    response = HTTParty.get(@systems_endpoint, headers: make_header(token))
+    response["data"]
+  end
+
+  def self.system_waypoints(token, system_symbol)
+    system_waypoints_endpoint = "#{@systems_endpoint}/#{system_symbol}/waypoints"
+    response = HTTParty.get(system_waypoints_endpoint, headers: make_header(token))
     response["data"]
   end
 end

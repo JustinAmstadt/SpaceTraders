@@ -1,7 +1,11 @@
-require "./agent"
+require './agent'
+require './map/universe'
+require 'json'
+require './logger'
+require './endpoints'
 
+universe = Universe.new(AGENT_TOKEN)
 agent = Agent.new(AGENT_TOKEN)
-# agent.display_headquarters
 
 ships = agent.ships
 contracts = agent.contracts
@@ -26,9 +30,15 @@ loop do
     ship_symbol = input.split.last.upcase
     ship = ships.get_ship(ship_symbol)
     puts ship.orbit(AGENT_TOKEN)
+  when input.match?(/^ship\s+navigate\s+(\S+)\s+(\S+)$/)
+    match = input.match(/^ship\s+navigate\s+(\S+)\s+(\S+)$/)
+    ship_symbol = match[1].upcase
+    waypoint_symbol = match[2].upcase
+    ship = ships.get_ship(ship_symbol)
+    data = ship.navigate_to(AGENT_TOKEN, waypoint_symbol)
+    puts data
 
   when input == "engineered asteroid"
-    
 
   when input == "headquarters"
     agent.display_headquarters
@@ -46,6 +56,16 @@ loop do
     contracts.set_contract(id, new_contract)
 
   when input == "newcontract"
+
+  when input == "log universe"
+    Logger.to_log("universe.log", universe.to_s)
+
+  when input == "plot universe"
+    universe.plot_universe
+
+  when input == "engineered asteroid"
+    data = WaypointEndpoint.search_waypoint(AGENT_TOKEN, "X1-TZ54", "ENGINEERED_ASTEROID")
+    puts data
 
   end
     

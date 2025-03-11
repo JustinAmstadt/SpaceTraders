@@ -5,11 +5,11 @@ require 'json'
 require './config'
 require './endpoints'
 require './contracts/contracts'
-require './waypoint'
+require './map/waypoint'
 require './ships/ships'
 
 class Agent
-  attr_reader :ships, :contracts
+  attr_reader :ships, :contracts, :headquarters
 
   def initialize(token)
     data = AgentEndpoint.call_endpoint(token)
@@ -36,7 +36,7 @@ class Agent
   end
 
   def display_headquarters
-    @headquarters.display_info
+    puts @headquarters.to_s
   end
 
   def display_ship_details
